@@ -17,8 +17,8 @@ cask install boot2docker
 cask install keka
 # Desktop control
 cask install spectacle
-# Music player
-cask install vox-legacy
+# Music player - install vox from App Store instead
+#cask install vox-legacy
 # Video player
 cask install vlc
 # PDF reader
@@ -46,3 +46,5 @@ cask install flux
 cask install qlcolorcode qlstephen qlmarkdown quicklook-json betterzipql suspicious-package
 # SourceTree
 cask install sourcetree
+# Sonos music manager
+cask install sonos

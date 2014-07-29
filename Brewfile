@@ -1,2 +1,6 @@
 install caskroom/cask/brew-cask
-install zsh
+install wget
+install cloudfoundry-cli
+install s3cmd
+install tmux
+install openconnect

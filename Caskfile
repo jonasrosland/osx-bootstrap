@@ -1,0 +1,44 @@
+# Terminal
+cask install iterm2
+# Virtualization
+cask install vagrant
+cask install virtualbox
+# Text editing
+cask install sublime-text3
+# Web
+cask install google-chrome
+# Docker
+cask install boot2docker
+# Compression
+cask install keka
+# Desktop control
+cask install spectacle
+# Music player
+cask install vox-legacy
+# Video player
+cask install vlc
+# PDF reader
+cask install skim
+# Picture viewer
+cask install xee22
+# Comic reader
+cask install simple-comic
+# ScreenFlow
+cask install screenflow
+# Skype
+cask install skype
+# Markdown
+cask install macdown
+# Online storage
+cask install dropbox
+cask install google-drive
+# Social media
+#cask install twitter
+# Note taking
+cask install evernote
+# Proper screen ligthing
+cask install flux
+# QuickLook plugins
+cask install qlcolorcode qlstephen qlmarkdown quicklook-json betterzipql suspicious-package
+# SourceTree
+cask install sourcetree

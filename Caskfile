@@ -1,3 +1,7 @@
+# Install brew cask and more versions of casks
+install caskroom/cask/brew-cask
+tap caskroom/versions
+
 # Terminal
 cask install iterm2
 # Virtualization

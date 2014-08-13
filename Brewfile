@@ -8,6 +8,10 @@ install wget
 install tmux
 install nvm
 
+## Install brew cask and more versions of casks
+install brew-cask
+tap caskroom/versions
+
 ## Time-waste stuff
 install fortune
 install cowsay

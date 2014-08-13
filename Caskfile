@@ -1,6 +1,4 @@
-# Install brew cask and more versions of casks
-install caskroom/cask/brew-cask
-tap caskroom/versions
+## Install a ton of great apps using Homebrew cask instead of downloading, clicking and manually installing :)
 
 ## Standard app replacements
 # Web

@@ -19,8 +19,8 @@ Enjoy!
 
 ## Requirements
 
-You'll need to have OSX Command Line Utilities installed to use git, which will be installed automatically when you're trying to use git for the first time (during homebrew installation); you'll get a nice popup window asking you to install it, so let it do that for you. If you want to you can remove the OSX CLT afterwards as you'll probably install newer versions of these tools anyway.
+You'll need to have OSX Command Line Tools installed to use git, which will be installed automatically when you're trying to use git for the first time (during homebrew installation); you'll get a nice popup window asking you to install it, so let it do that for you. If you want to you can remove the OSX CLT afterwards as you'll probably install newer versions of these tools anyway.
 
 ## settings.sh
 
-Some sane settings for me, use them at your own risk :)
+Some sane settings for me, use them at your own risk!

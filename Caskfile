@@ -44,6 +44,8 @@ cask install simple-comic
 cask install sonos
 # Soundcloud client (yes, that's the correct spelling)
 cask install soundcleod
+# Adobe Flash
+cask install flash
 # Music player - install vox from App Store instead
 
 ## Work
@@ -51,6 +53,8 @@ cask install soundcleod
 cask install screenflow
 # Note taking
 cask install evernote
+# VMware View
+cask install vmware-horizon-view-client
 
 ## Social
 # Skype
@@ -63,4 +67,6 @@ cask install google-drive
 # Compression
 cask install keka
 
-
+## Games
+# Steam client - now possible to stream games from the gaming rig to the Mac!
+cask install steam

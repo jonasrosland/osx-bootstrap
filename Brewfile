@@ -7,6 +7,7 @@ install git-flow
 install wget
 install tmux
 install nvm
+install python
 
 ## Install brew cask and more versions of casks
 install brew-cask

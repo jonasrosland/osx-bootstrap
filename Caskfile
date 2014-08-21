@@ -28,6 +28,8 @@ cask install flux
 cask install qlcolorcode qlstephen qlmarkdown quicklook-json betterzipql suspicious-package
 # Window management
 cask install spectacle
+# Logitech Unifying software for keyboard and trackball
+cask install logitech-unifying
 
 ## Media
 # Video player

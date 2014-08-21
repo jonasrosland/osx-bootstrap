@@ -49,7 +49,7 @@ ZSH_THEME="ys"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git brew brew-cask)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -73,4 +73,8 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+source $(brew --prefix nvm)/nvm.sh
 export DOCKER_HOST=tcp://127.0.0.1:2375
+
+#bindkey "\e[1~" beginning-of-line
+#bindkey "\e[4~" end-of-line

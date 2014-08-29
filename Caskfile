@@ -46,15 +46,21 @@ cask install sonos
 cask install soundcleod
 # Adobe Flash
 cask install flash
+# Podcast player
+cask install instacast
 # Music player - install vox from App Store instead
+
 
 ## Work
 # Screen recording
 cask install screenflow
 # Note taking
 cask install evernote
+cask install nvalt
 # VMware View
 cask install vmware-horizon-view-client
+# Collaboration
+cask install slack
 
 ## Social
 # Skype

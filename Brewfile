@@ -13,6 +13,12 @@ install python
 install brew-cask
 tap caskroom/versions
 
+## Add tap for Pivotal
+tap pivotal/tap
+
+## Install Pivotal CF cli
+brew install cloudfoundry-cli
+
 ## Time-waste stuff
 install fortune
 install cowsay

@@ -16,3 +16,6 @@ brew bundle Caskfile
 # Set standard settings
 source 'settings.sh'
 source 'symlink-dotfiles.sh'
+
+# Update OS X
+sudo softwareupdate -i -a

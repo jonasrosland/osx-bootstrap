@@ -10,7 +10,7 @@ install nvm
 install python
 
 ## Install brew cask and more versions of casks
-install brew-cask
+install caskroom/cask/brew-cask
 tap caskroom/versions
 
 ## Add tap for Pivotal

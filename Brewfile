@@ -17,7 +17,7 @@ tap caskroom/versions
 tap pivotal/tap
 
 ## Install Pivotal CF cli
-brew install cloudfoundry-cli
+install cloudfoundry-cli
 
 ## Time-waste stuff
 install fortune

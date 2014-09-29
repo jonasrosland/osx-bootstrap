@@ -5,6 +5,11 @@
 
 # General
 # =======
+# Set computer name (as done via System Preferences → Sharing)
+sudo scutil --set ComputerName "earth"
+sudo scutil --set HostName "earth"
+sudo scutil --set LocalHostName "earth"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "earth"
 
 # Restart automatically if the computer freezes
 sudo systemsetup -setrestartfreeze on

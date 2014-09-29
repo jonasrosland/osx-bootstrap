@@ -61,6 +61,8 @@ cask install nvalt
 cask install vmware-horizon-view-client
 # Collaboration
 cask install slack
+# Podcast cleanup
+cask install levelator
 
 ## Social
 # Skype

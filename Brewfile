@@ -9,6 +9,10 @@ install tmux
 install nvm
 install python
 
+# VPN stuff
+#install tuntap
+install openconnect
+
 ## Install brew cask and more versions of casks
 install caskroom/cask/brew-cask
 tap caskroom/versions

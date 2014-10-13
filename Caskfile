@@ -49,6 +49,8 @@ cask install flash
 # Podcast player
 cask install instacast
 # Music player - install vox from App Store instead
+# Spotify player
+cask install spotify
 
 
 ## Work

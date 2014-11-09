@@ -1,28 +1,24 @@
 ## Productive stuff
-install zsh
-install zsh-completions
-install zsh-syntax-highlighting
-install git
-install git-flow
-install wget
-install tmux
-install nvm
-install python
+zsh
+zsh-completions
+zsh-syntax-highlighting
+git
+git-flow
+wget
+tmux
+nvm
+python
 
-# VPN stuff
-#install tuntap
-install openconnect
+## VPN stuff
+#tuntap
+#openconnect
 
-## Install brew cask and more versions of casks
-install caskroom/cask/brew-cask
-tap caskroom/versions
+## brew cask and more versions of casks
+caskroom/cask/brew-cask
 
-## Add tap for Pivotal
-tap pivotal/tap
-
-## Install Pivotal CF cli
-install cloudfoundry-cli
+## Pivotal CF cli
+cloudfoundry-cli
 
 ## Time-waste stuff
-install fortune
-install cowsay
+fortune
+cowsay

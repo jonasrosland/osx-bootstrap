@@ -2,81 +2,82 @@
 
 ## Standard app replacements
 # Web
-cask install google-chrome
+google-chrome
 # Terminal
-cask install iterm2
+iterm2
 
 ## Boxes
 # Virtualization
-cask install vagrant
-cask install virtualbox
+vagrant
+virtualbox
 # Containers
-cask install boot2docker
+boot2docker
 
 ## Coding
 # SourceTree
-cask install sourcetree
+sourcetree
 # Text editing
-cask install sublime-text3
+sublime-text3
+atom
 # Markdown
-cask install macdown
+macdown
 
 ## Desktop
 # Proper screen ligthing
-cask install flux
+flux
 # QuickLook plugins
-cask install qlcolorcode qlstephen qlmarkdown quicklook-json betterzipql suspicious-package
+qlcolorcode qlstephen qlmarkdown quicklook-json betterzipql suspicious-package
 # Window management
-cask install spectacle
+spectacle
 # Logitech Unifying software for keyboard and trackball
-cask install logitech-unifying
+logitech-unifying
 
 ## Media
 # Video player
-cask install vlc
+vlc
 # PDF reader
-cask install skim
+skim
 # Picture viewer
-cask install xee22
+xee22
 # Comic reader
-cask install simple-comic
+simple-comic
 # Sonos music manager
-cask install sonos
+sonos
 # Soundcloud client (yes, that's the correct spelling)
-cask install soundcleod
+soundcleod
 # Adobe Flash
-cask install flash
+flash
 # Podcast player
-cask install instacast
+instacast
 # Music player - install vox from App Store instead
 # Spotify player
-cask install spotify
+spotify
 
 
 ## Work
 # Screen recording
-cask install screenflow
+screenflow
 # Note taking
-cask install evernote
-cask install nvalt
+evernote
+nvalt
 # VMware View
-cask install vmware-horizon-view-client
+vmware-horizon-view-client
 # Collaboration
-cask install slack
+slack
 # Podcast cleanup
-cask install levelator
+levelator
 
 ## Social
 # Skype
-cask install skype
+skype
 
 ## Storage
 # Online storage
-cask install dropbox
-cask install google-drive
+dropbox
+google-drive
 # Compression
-cask install keka
+keka
 
 ## Games
 # Steam client - now possible to stream games from the gaming rig to the Mac!
-cask install steam
+steam

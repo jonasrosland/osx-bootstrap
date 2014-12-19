@@ -3,3 +3,6 @@ caskroom/versions
 
 ## Add tap for Pivotal
 pivotal/tap
+
+## Tap for packer
+brew tap homebrew/binary

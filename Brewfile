@@ -8,6 +8,8 @@ wget
 tmux
 nvm
 python
+npm
+packer
 
 ## VPN stuff
 #tuntap

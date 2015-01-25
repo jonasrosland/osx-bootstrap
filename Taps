@@ -5,4 +5,4 @@ caskroom/versions
 pivotal/tap
 
 ## Tap for packer
-brew tap homebrew/binary
+homebrew/binary

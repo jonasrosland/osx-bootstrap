@@ -7,23 +7,23 @@ osx-bootstrap
 
 These files will install a bunch of great tools on your newly installed Mac. If it's not a brand new install of OS X you'll most probably be able to use these anyway :)
 
-## Quick Start 
+## Quick Start
 
-(**Not recommended:** Still customized to Jonas' environment)
+(**Not recommended:** Customized to my environment)
 
 Run the following command to do a proper install of Homebrew, cask, oh-my-zsh, and a bunch of great tools and apps:
 
 ```
-curl --silent https://raw.githubusercontent.com/virtualswede/osx-bootstrap/master/install.sh | sh
+curl --silent https://raw.githubusercontent.com/jonasrosland/osx-bootstrap/master/install.sh | sh
 ```
 
 ## Customize Install
 
-Names and directories are hardcoded into this project right now, so it makes more sense to take a few steps before leveraging this tool. To make it yours be sure to: 
+Names and directories are hardcoded into this project right now, so it makes more sense to take a few steps before leveraging this tool. To make it yours be sure to:
 
-* `git clone https://github.com/mjbrender/osx-bootstrap.git` to get these files locally
-* Edit `install.sh` and define your `$dev` directory
-* Edit `settings.sh` and name your computer 
+* `git clone https://github.com/jonasrosland/osx-bootstrap.git` to get these files locally
+* Edit `install.sh` and define your `$dir` directory
+* Edit `settings.sh` and name your computer
 * Edit `symlink-dotfiles.sh` and define your `$dev` directory
 * Review and customize the apps installed from Brewfile & Caskfile
 

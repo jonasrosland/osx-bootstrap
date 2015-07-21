@@ -52,7 +52,7 @@ ZSH_THEME="ys"
 plugins=(git brew brew-cask history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
-
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

@@ -74,7 +74,9 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 source $(brew --prefix nvm)/nvm.sh
-export DOCKER_HOST=tcp://127.0.0.1:2375
+export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2376
+export DOCKER_CERT_PATH=/Users/$USER/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
 
 #bindkey "\e[1~" beginning-of-line
 #bindkey "\e[4~" end-of-line
@@ -93,3 +95,6 @@ bindkey '[H' kill-word
 
 # Delete line with cmd-backspace
 bindkey '[I' kill-whole-line
+
+# added by travis gem
+[ -f /Users/jonas/.travis/travis.sh ] && source /Users/jonas/.travis/travis.sh

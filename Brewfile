@@ -10,6 +10,8 @@ nvm
 python
 npm
 packer
+rbenv
+ruby-build
 
 ## VPN stuff
 #tuntap

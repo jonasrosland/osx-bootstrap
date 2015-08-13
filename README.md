@@ -36,3 +36,7 @@ You'll need to have OS X Command Line Tools installed to use git, which will be 
 ## settings.sh
 
 Some sane settings for me, use them at your own risk!
+
+## Cask upgrades
+
+You can use the `cask-upgrade.sh` script to upgrade your Casks!

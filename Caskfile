@@ -67,6 +67,9 @@ slack
 # Podcast cleanup
 levelator
 
+## Cloud resources
+google-cloud-sdk
+
 ## Social
 # Skype
 skype

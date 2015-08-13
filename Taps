@@ -6,3 +6,6 @@ pivotal/tap
 
 ## Tap for packer
 homebrew/binary
+
+## Tap for tmate
+nviennot/tmate

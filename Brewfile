@@ -12,6 +12,8 @@ npm
 packer
 rbenv
 ruby-build
+tmate
+ngrok
 
 ## VPN stuff
 #tuntap

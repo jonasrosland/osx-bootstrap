@@ -28,3 +28,6 @@ cloudfoundry-cli
 ## Time-waste stuff
 fortune
 cowsay
+
+## Games
+homebrew/games/ckan

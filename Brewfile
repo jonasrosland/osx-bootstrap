@@ -3,4 +3,3 @@ install wget
 install cloudfoundry-cli
 install s3cmd
 install tmux
-install openconnect

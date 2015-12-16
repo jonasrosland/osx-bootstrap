@@ -74,7 +74,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 source $(brew --prefix nvm)/nvm.sh
-eval "$(docker-machine env local)"
+eval "$(docker-machine env local 2>/dev/null)"
 
 #bindkey "\e[1~" beginning-of-line
 #bindkey "\e[4~" end-of-line

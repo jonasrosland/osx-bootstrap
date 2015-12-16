@@ -74,9 +74,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 source $(brew --prefix nvm)/nvm.sh
-export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2376
-export DOCKER_CERT_PATH=/Users/$USER/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
+eval "$(docker-machine env local)"
 
 #bindkey "\e[1~" beginning-of-line
 #bindkey "\e[4~" end-of-line
@@ -101,3 +99,4 @@ bindkey '[I' kill-whole-line
 source '/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 source '/opt/homebrew-cask/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 
+export PATH="/usr/local/sbin:$PATH"

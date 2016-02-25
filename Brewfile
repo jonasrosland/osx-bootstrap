@@ -1,19 +1,26 @@
 ## Productive stuff
+ack
+httpie
+wget
+packer
+watch
+
+## Programming stuff
+rbenv
+ruby-build
+ngrok
+nvm
+npm
+python
+git
+git-flow
+
+## Shell stuff
 zsh
 zsh-completions
 zsh-syntax-highlighting
-git
-git-flow
-wget
 tmux
-nvm
-python
-npm
-packer
-rbenv
-ruby-build
 tmate
-ngrok
 
 ## VPN stuff
 #tuntap
@@ -26,8 +33,9 @@ caskroom/cask/brew-cask
 cloudfoundry-cli
 
 ## Time-waste stuff
-fortune
-cowsay
+#fortune
+#cowsay
+youtube-dl
 
 ## Games
 homebrew/games/ckan

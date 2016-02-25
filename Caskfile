@@ -40,7 +40,7 @@ skim
 # Picture viewer
 xee
 # Comic reader
-simple-comic
+#simple-comic
 # Sonos music manager
 sonos
 # Soundcloud client (yes, that's the correct spelling)
@@ -48,7 +48,7 @@ soundcleod
 # Adobe Flash
 flash
 # Podcast player
-instacast
+#instacast
 # Music player - install vox from App Store instead
 # Spotify player
 spotify

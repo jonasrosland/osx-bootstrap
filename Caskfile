@@ -11,16 +11,16 @@ iterm2
 vagrant
 virtualbox
 # Containers
-boot2docker
+dockertoolbox
 
 ## Coding
 # SourceTree
-sourcetree
+#sourcetree
 # Text editing
-sublime-text3
+#sublime-text3
 atom
 # Markdown
-macdown
+#macdown
 
 ## Desktop
 # Proper screen ligthing
@@ -58,14 +58,15 @@ spotify
 # Screen recording
 screenflow
 # Note taking
-evernote
-nvalt
+#evernote
+#nvalt
 # VMware View
 vmware-horizon-view-client
 # Collaboration
-slack
+#slack - use App store instead
 # Podcast cleanup
-levelator
+#levelator
+audio-hijack
 
 ## Cloud resources
 google-cloud-sdk
@@ -80,6 +81,8 @@ dropbox
 google-drive
 # Compression
 keka
+# Management
+filezilla
 
 ## Games
 # Steam client - now possible to stream games from the gaming rig to the Mac!

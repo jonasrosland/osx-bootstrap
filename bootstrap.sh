@@ -7,14 +7,8 @@ brew update
 # Install oh-my-zsh to beautify and manage zsh
 curl -L http://install.ohmyz.sh | sh
 
-# install brew taps, needs to be fixed properly later
-while read in; do brew tap "$in"; done < Taps
-
-# Install brews
-brew install $(cat Brewfile|grep -v "#")
-
-# Install casks
-brew cask install $(cat Caskfile|grep -v "#")
+# install from Brewfile
+brew bundle
 
 # Set standard settings
 source 'settings.sh'
